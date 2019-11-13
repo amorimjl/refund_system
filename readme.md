@@ -21,4 +21,11 @@ Para autenticação foi utilizado [JWT Auth](https://jwt-auth.readthedocs.io/en/
 **Publicando pacote do arquivo de configuração**
 > php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
 
+## Requisições com Token 
+Inserir token de login na aba de Authorization para uma pasta
+1. Edit Folder
+2. Authorization 
+3. Mudar tipo para "Bearer Token" 
+4. No campo token, inserir dados.
+
 
