@@ -166,6 +166,7 @@ class RefundController extends Controller
                 )
                 ->whereYear('date', $request->year)
                 ->whereMonth('date', $request->month)
+                ->whereNull('deleted_at')
                 ->groupBy(DB::raw('MONTH(date)'))
                 ->get();
 
