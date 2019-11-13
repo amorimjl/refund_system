@@ -26,6 +26,6 @@ Inserir token em uma pasta no Postman para execução de requisições
 1. Edit Folder
 2. Authorization 
 3. Mudar tipo para "Bearer Token" 
-4. No campo token, inserir dados.
+4. No campo token, inserir token do login.
 
 
